@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    height:60px;
+    background-color: rgba(0, 0, 0, 0.883);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.header_logo{
+    color:orange;
+    margin:0 25px;
+    flex: 1;
+    height:30px;
+    display: flex;
+    align-items: center;
+}
+.header_logoText{
+    color:white;
+    margin-left: 10px;
+}
+.header_search{
+    flex: 7;
+    display: flex;
+    align-items: center;
+    height:30px;
+}
+.header_Searchbar{
+    height:30px;
+    width:100%;
+    margin-right: 5px;
+}
+.header_nav{
+    flex: 2;
+    display: flex;
+    height:30px;
+    align-items: center;
+    margin:0 50px 0 20px;
+}
+.nav_item{
+    margin:0 15px;
+    padding: 0px;;
+    height:30px;
+}
+.nav_itemLineOne{
+    font-size:x-small;
+    margin:0;
+}
+.nav_itemLineTwo{
+    font-size:15px;
+    font-style: normal;
+}
+.nav_itemBasketLogo{
+    margin-right: 8px;
+    color:orange;
+}
+.ecommerce-img{
+    width:100%;
+}
+.products-row-container{
+    padding:10px;
+    background-color:#D7E9F7;
+}
+.row{
+    display:flex;
+    background-color:#D7E9F7;
+}
+.product-container{
+    flex:1;
+    background-color: white;
+    border: 2px solid black;
+    margin: 10px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+}
+.product-image-container{
+    width:100%;
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-image1-row1{
+    width:48%;
+}
+.product-image2-row1{
+    width:80%;
+}
+
+
+.product-image1-row2{
+    width:40%;
+}
+.product-image2-row2{
+    width:65%;
+}
+.product-image3-row2{
+    width:55%;
+}
+
+.product-container-row3{
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    width: 100%;
+    margin: 5px 10px;
+    padding:30px 100px;
+    border: 2px solid black;
+}
+.product-image-container-row3{
+    width: 60%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.product-image1-row3{
+    width:100%;
+}
+.product-info{
+    font-size: 20px;
+    margin-bottom: 12px;
+    color:rgb(28, 25, 25);
+}
+.product-price{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.product-price span{
+    font-size: initial;
+    font-weight: initial;
+}
+.product-raiting{
+    color:blue;
+    font-size:20px;
+    margin-bottom: 40px;
+}
+
+
+.addToBasketButtonContainer{
+    display: flex;
+    justify-content: center;
+}
+.addToBasketButton{
+    background-color: orange;
+}
